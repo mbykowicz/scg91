@@ -1,0 +1,49 @@
+@media (max-width: 550px)
+    #header
+        height: 40px
+
+        label
+            font-size: 4rem
+            line-height: 4rem
+
+        img
+            visibility: hidden
+
+    #footer
+        ul
+            margin: 0
+
+        li
+            display: block
+            padding-top: 15px
+
+            &::after
+                content: ""
+
+            &:last-child
+                margin-bottom: 20px
+
+    #menu
+        font-size: 3rem
+
+@media (max-width: 850px)
+    #footer
+        p, ul
+            width: 100%
+
+    #contact
+        input[type="text"]
+            clear: both
+            width: 100%
+            margin: 0
+
+        label
+            width: 100%
+
+        input[type="submit"]
+            clear: both
+            width: 100%
+            margin-right: 0
+
+    #about
+        background: none

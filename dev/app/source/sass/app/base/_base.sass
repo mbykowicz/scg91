@@ -1,0 +1,56 @@
+/*
+    File: base/_base.sass
+    ========================================================================= */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,100,900,700,400)
+
+html
+    font-size: 62.5%
+
+body
+    font-size: 1.5rem
+    line-height: 1.6
+    letter-spacing: 0.1rem
+    font-family: "Lato", sans-serif
+    font-weight: 300
+    color: #000
+
+ul
+    padding: 0
+
+    li
+        list-style: none
+
+p
+    padding-top: 10px
+
+.text-center
+    text-align: center
+
+.text-left
+    text-align: left
+
+.text-right
+    text-align: right
+
+.text-justify
+    text-align: justify
+
+.text-uppercased
+    text-transform: uppercase
+
+.text-overlined
+    text-decoration: overline
+
+h1, h2, h3, h4, h5, h6
+    @extend .text-uppercased
+    letter-spacing: 0.2rem
+    font-weight: 700
+
+strong
+    font-weight: 900
+
+a, a:link, a:active, a:visited
+    text-decoration: none
+    color: inherit
+    

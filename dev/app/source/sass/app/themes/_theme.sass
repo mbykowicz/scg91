@@ -1,0 +1,28 @@
+/*
+    File: themes/_theme.sass
+    ========================================================================= */
+
+
+=theme($background, $font)
+
+    //HOVER
+    $hover-background: $font
+    $hover-font: $background
+
+    /* Main */
+    background: $background
+    color: $font
+
+
+    /* .button */
+    .button
+        background: $background
+        color: $font
+        border-color: $font
+
+        &:hover
+            background: $hover-background
+            color: $hover-font
+
+    .line
+        border-color: rgba($font, 0.5)
